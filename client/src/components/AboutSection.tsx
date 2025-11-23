@@ -51,13 +51,13 @@ export default function AboutSection() {
           <div className="space-y-6">
             <div className="space-y-4">
               <h3 className="text-2xl md:text-3xl font-semibold">
-                Building the Future of Product with AI
+                Researching & Exploring AI's Future in Product
               </h3>
               <p className="text-base leading-relaxed text-foreground/90">
-                As Head of Product at Refund Hawk, I lead cross-functional teams to build data-driven solutions that directly impact our customers. My journey from analyzing Amazon seller and vendor product data to leading product strategy has given me a unique perspective on turning data insights into successful products.
+                As Head of Product at Refund Hawk, I lead cross-functional teams to build data-driven solutions while actively researching and exploring cutting-edge AI/ML innovations. Working directly with Amazon seller and vendor product data, I've developed a unique perspective on turning complex marketplace analytics into strategic product decisions.
               </p>
               <p className="text-base leading-relaxed text-foreground/90">
-                I specialize in leveraging AI/ML to solve complex product challenges—from building GenAI-powered assistants to implementing sophisticated A/B testing frameworks. My technical background in Python, machine learning, and data pipelines allows me to bridge the gap between engineering and business.
+                I'm deeply passionate about exploring how AI/ML can solve complex product challenges—from building GenAI-powered assistants to implementing sophisticated A/B testing frameworks. My technical background in Python, machine learning, and data pipelines, combined with my research mindset, allows me to bridge the gap between emerging AI research and practical business applications.
               </p>
             </div>
 
@@ -65,9 +65,9 @@ export default function AboutSection() {
               <div className="flex items-start gap-3">
                 <Sparkles className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold mb-2">Currently Building</h4>
+                  <h4 className="font-semibold mb-2">Currently Researching & Building</h4>
                   <p className="text-sm text-muted-foreground">
-                    Leading product innovation at Refund Hawk, focusing on client-facing solutions that combine AI capabilities with data analytics. My long-term vision is to become an entrepreneur building AI-powered products that solve real business problems.
+                    Leading product innovation at Refund Hawk while actively researching and exploring AI/ML frontiers. Working with Amazon marketplace data and building client-facing solutions that combine cutting-edge AI capabilities with practical data analytics. My long-term vision is to become an entrepreneur building AI-powered products that solve real business problems.
                   </p>
                 </div>
               </div>

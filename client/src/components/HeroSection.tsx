@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, FileText, Award } from "lucide-react";
 import { SiMedium, SiGooglecloud } from "react-icons/si";
-import heroImage from "@assets/generated_images/professional_headshot_hero_image.png";
+import heroImage from "@assets/Pi7-Image-Cropper (1)_1763932342001.jpeg";
 
 export default function HeroSection() {
   const socialLinks = [
@@ -57,10 +57,10 @@ export default function HeroSection() {
                 </span>
               </h1>
               <p className="text-2xl md:text-3xl font-semibold text-foreground/90">
-                Head of Product | AI & Data Specialist
+                Head of Product | AI Researcher & Explorer
               </p>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                Building data-driven product experiences with AI/ML. From Amazon marketplace analytics to GenAI applications, I transform complex data into strategic product decisions.
+                Building data-driven product experiences while actively researching and exploring AI/ML innovations. From Amazon marketplace analytics to GenAI applications, I transform complex data into strategic product decisions.
               </p>
             </div>
 
