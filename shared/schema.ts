@@ -16,3 +16,19 @@ export const insertUserSchema = createInsertSchema(users).pick({
 
 export type InsertUser = z.infer<typeof insertUserSchema>;
 export type User = typeof users.$inferSelect;
+
+// Contact form schema for email submissions (no database storage)
+export const contactFormSchema = z.object({
+  name: z.string().min(1, "Name is required"),
+  email: z.string().email("Valid email is required"),
+  message: z.string().min(10, "Message must be at least 10 characters"),
+});
+
+export type ContactFormData = z.infer<typeof contactFormSchema>;
+
+export const contactResponseSchema = z.object({
+  success: z.boolean(),
+  message: z.string(),
+});
+
+export type ContactResponse = z.infer<typeof contactResponseSchema>;
