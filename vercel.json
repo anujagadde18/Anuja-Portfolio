@@ -8,14 +8,19 @@
     }
   },
   "routes": [
+  "rewrites": [
     {
       "src": "/api/(.*)",
       "dest": "/dist/index.js"
+      "source": "/api/:path*",
+      "destination": "/dist/index.js"
     },
     {
       "src": "/(.*)",
       "dest": "/dist/public/index.html",
       "status": 200
+      "source": "/(.*)",
+      "destination": "/dist/public/index.html"
     }
   ]
 }
