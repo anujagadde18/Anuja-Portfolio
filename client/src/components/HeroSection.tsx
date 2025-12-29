@@ -25,7 +25,7 @@ export default function HeroSection() {
     },
     {
       icon: SiGooglecloud,
-      href: "#",
+      href: "https://www.skills.google/public_profiles/28ecc08c-6a96-48f2-89b9-aae56aa04808",
       label: "Google Cloud",
       testId: "link-google-cloud",
     },
