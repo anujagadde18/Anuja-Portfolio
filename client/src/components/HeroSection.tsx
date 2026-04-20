@@ -25,7 +25,7 @@ export default function HeroSection() {
     },
     {
       icon: SiGooglecloud,
-      href: "https://www.skills.google/public_profiles/28ecc08c-6a96-48f2-89b9-aae56aa04808",
+      href: "https://www.skills.google/public_profiles/29170926-f384-498e-a7c1-1ffbb36cd935",
       label: "Google Cloud",
       testId: "link-google-cloud",
     },
@@ -57,10 +57,10 @@ export default function HeroSection() {
                 </span>
               </h1>
               <p className="text-2xl md:text-3xl font-semibold text-foreground/90">
-                Head of Product | AI Researcher & Explorer
+                Head of Product at Refund Hawk | AI Builder & Researcher
               </p>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                Building data-driven product experiences while actively researching and exploring AI/ML innovations. From Amazon marketplace analytics to GenAI applications, I transform complex data into strategic product decisions.
+                Building data-driven products by day, AI prediction tools by night. Currently building <a href="https://tradedna.vercel.app" target="_blank" rel="noopener noreferrer" className="text-primary underline">PlayPicks AI</a> — AI-powered prediction market tool with 80% accuracy. From Amazon marketplace analytics to GenAI applications, I transform complex data into real products.
               </p>
             </div>
 

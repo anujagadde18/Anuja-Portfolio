@@ -10,6 +10,16 @@ import abTestImage from "@assets/generated_images/a/b_testing_dashboard.png";
 export default function ProjectsSection() {
   const projects = [
     {
+      title: "PlayPicks AI — Prediction Market Tool",
+      description: "Built a full-stack AI prediction tool for Polymarket from scratch. Analyzes real-time news, social signals, and market data to find edges. 80% prediction accuracy, 100+ users, live in production. Stack: Next.js, Neon Postgres, Claude AI, Polymarket CLOB API.",
+      image: genaiImage,
+      tags: ["Next.js", "AI/ML", "Polymarket", "Neon Postgres", "Claude AI", "TypeScript"],
+      links: {
+        github: "https://github.com/anujagadde18/tradedna",
+        article: "https://tradedna.vercel.app",
+      },
+    },
+    {
       title: "GenAI Multimodal Assistant",
       description: "Built a production-ready GenAI application using LangChain and Gemini Pro that processes multimodal inputs (text, images, video) for data analysis and insights generation.",
       image: genaiImage,
